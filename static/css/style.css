@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Work+Sans&display=swap');
+
 .content {
   display: flex;
   align-items: center;
@@ -10,16 +12,74 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  padding: 10px;
+}
+
+.buttons h3{
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 40px;
+}
+
+.buttons .name_div{
+  width: 100%;
+}
+
+.buttons .name_div label{
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.buttons .name_div input{
+  height: 20px;
+  width: 250px;
+  padding: 2px 5px;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.buttons .name_div input::placeholder{
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .join {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  justify-content: space-between;
+  width: 100%;  
+}
+
+.join input{
+  height: 20px;
+  width: 180px;
+  padding: 2px 5px;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  margin-right: 10px;
+}
+
+.join input::placeholder{
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.join button{
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .create-btn {
   width: 100%;
+  height: 30px;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.home_li{
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: red;
 }
 
 .message-box {
