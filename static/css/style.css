@@ -1,32 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.box{
-    height: 580px;
-    width: 100vw;
-    /* background-color: rgb(158, 248, 197); */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-.message_box{
-    margin: 2px;
-    width: 95vw;
-    height: 550px;
+.join {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.send_message{
-    margin: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    /* background-color: red; */
+.create-btn {
+  width: 100%;
 }
 
-.send_message input{
-    position: relative;
-    width: 90vw;
+.message-box {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: stretch;
 }
-.send_message button{
-    position: absolute;
-    right: 4vw;
+
+.messages {
+  overflow-y: scroll;
+  flex: 1;
+  width: 100%;
+}
+
+.inputs {
+  padding: 10px;
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+}
+
+#message {
+  flex: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.muted {
+  font-size: 10px;
+  color: darkgray;
 }
