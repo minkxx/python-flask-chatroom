@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Chatroom{% endblock title %}
+
+{% block message_box %}
+    <div class="box">
+         <div class="message_box">
+
+         </div>
+         <div class="send_message">
+            <input type="text" name="message_text" id="message_text">
+            <button type="submit" id="send_btn">Send</button>
+         </div>
+    </div>
+{% endblock message_box %}

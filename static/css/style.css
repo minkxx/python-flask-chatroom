@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 580px;
+    width: 100vw;
+    background-color: rgb(158, 248, 197);
+}
+
+.message_box{
+    margin: 2px;
+    width: 95vw;
+    height: 550px;
+}
+
+.send_message{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.send_message input{
+    width: 400px;
+}
