@@ -1,1 +1,15 @@
 {% extends 'base.html' %}
+{% block title %}ChatRoom{% endblock title %}
+{% block message_box %}
+    <div class="login">
+        <div class="join_room">
+            <input type="text" placeholder="Enter your name" name="join_name">
+            <input type="text" placeholder="Enter room code" name="join_room_code">
+            <button type="submit" name="join_room_submit">Join</button>
+        </div>
+        <div class="create_room">
+            <input type="text" placeholder="Enter your name" name="create_name">
+            <button type="submit" name="create_room_submit">Create</button>
+        </div>
+    </div>  
+{% endblock message_box %}
